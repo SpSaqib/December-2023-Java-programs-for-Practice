@@ -7,6 +7,7 @@ class Company
 	String name;
 	static String companyName="Microsoft";
 	String adress;
+	String cityName;
 		
 	{
 		System.out.println("From Nonstatic block");
@@ -28,6 +29,12 @@ class Company
 		this(adress);
 		this.emp_Id=emp_Id;
 		this.name=name;
+				
+	}
+	Company(String adress,int emp_Id,String name, String cityName)
+	{
+		this(adress,emp_Id,name);
+		this.cityName=cityName;
 				
 	}
 	
