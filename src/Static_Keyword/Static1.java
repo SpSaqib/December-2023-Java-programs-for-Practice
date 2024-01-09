@@ -15,6 +15,11 @@ public class Static1 {
 		System.out.println("Runnning Sports");
 	}
 	
+	void cricket()
+	{
+		System.out.println("Cricket Sports");
+	}
+	
 	static void volleyBall()
 	{
 		
