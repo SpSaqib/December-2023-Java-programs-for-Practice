@@ -38,9 +38,6 @@ class Company
 				
 	}
 	
-	
-	
-	
 	void employeeDetails()
 	{
 		System.out.println(emp_Id);
