@@ -17,8 +17,6 @@ public class CarHasA {
 	{
 		System.out.println(color);
 		System.out.println(price);
-		e.engineAttributeDetails();
-		
 	}
 
 	public static void main(String[] args) 

@@ -8,6 +8,7 @@ class Company
 	static String companyName="Microsoft";
 	String adress;
 	String cityName;
+	String logo;
 		
 	{
 		System.out.println("From Nonstatic block");
@@ -34,8 +35,7 @@ class Company
 	Company(String adress,int emp_Id,String name, String cityName)
 	{
 		this(adress,emp_Id,name);
-		this.cityName=cityName;
-				
+		this.cityName=cityName;	
 	}
 	
 	void employeeDetails()
@@ -44,6 +44,7 @@ class Company
 		System.out.println(name);
 		System.out.println(companyName);
 		System.out.println(adress);
+		System.out.println(logo);
 	}
 	
 	static void employeeContact()

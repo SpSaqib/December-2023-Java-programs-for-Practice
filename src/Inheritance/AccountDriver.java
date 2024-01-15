@@ -1,6 +1,6 @@
 package Inheritance;
 
-public class AccountDriver {
+public class AccountDriver extends LoanAccount{
 
 	public static void main(String[] args) 
 	{
@@ -16,7 +16,7 @@ public class AccountDriver {
 		System.out.println(la.acc_holder_Name);
 		System.out.println(la.acc_No);
 		System.out.println(la.ifsc);
-		System.out.println(la.available_balance);
+		
 		System.out.println(la.loan_Amount);
 	}
 
