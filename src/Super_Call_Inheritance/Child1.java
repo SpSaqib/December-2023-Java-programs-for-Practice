@@ -1,6 +1,6 @@
 package Super_Call_Inheritance;
 
-public class Child1 extends Parent1{
+public class Child1 extends Parent11{
 	
 	String str;
 	

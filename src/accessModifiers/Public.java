@@ -1,29 +1,29 @@
-package Static_Keyword;
+package accessModifiers;
 
-public class City {
-	
-	static String name;
+import Static_Keyword.City;
+
+public class Public {
+static String name;
 	
 	public static void main(String[] args) 
 	{
 		System.out.println("Name : "+name);
 		setName("Bidar");
 		System.out.println("Name : "+name);
-		City c=new City();
+		Public c=new Public();
 		c.display();
 	
 	}
 	
 	public static void setName(String name)
 	{
-		City.name=name;
+		Public.name=name;
 		System.out.println(name);
 	}
 
-	protected void display()
+	public void display()
 	{
 		System.out.println("Hello");
 	}
-	
-	
+
 }
