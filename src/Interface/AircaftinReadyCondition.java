@@ -1,6 +1,6 @@
 package Interface;
 
-public class AircaftinReadyCondition implements  AirCraftCompanyName {
+public class AircaftinReadyCondition implements  AircraftRules,AirCraftCompanyName {
 
 	
 	
@@ -10,7 +10,7 @@ public class AircaftinReadyCondition implements  AirCraftCompanyName {
 	}
 	
 	public static void main(String[] args) {
-		AirCraftCompanyName ac=new AircaftinReadyCondition();
+		AircaftinReadyCondition ac=new AircaftinReadyCondition();
 		ac.color();
 		ac.nameOfAircraftCompany();
 		ac.nameOfAircraftCompany();
@@ -18,6 +18,7 @@ public class AircaftinReadyCondition implements  AirCraftCompanyName {
 		
 	}
 
+	//Multiple inheritance overcome
 	@Override
 	public void airCraftDesign() {
 		
