@@ -1,6 +1,6 @@
 package Polymorphism;
 
-public class Parent1 {
+ public class Parent1 {
 	
 	public void demo()
 	{

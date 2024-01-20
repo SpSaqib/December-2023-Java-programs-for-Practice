@@ -29,7 +29,7 @@ public class Child1Preant1Driver {
 		p1.test();
 		p1.parentClassIntro();
 		p1.hiParent();
-		//Runtime polymorphism
+		//Runtime polymorphism method overriding
 		p1.add(2, 3);
 		//We cant access members of subclass from upcasting with the reference created for parent class
 //		p1.childClassIntro();
