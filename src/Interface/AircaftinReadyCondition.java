@@ -4,7 +4,8 @@ public class AircaftinReadyCondition implements  AircraftRules,AirCraftCompanyNa
 
 	
 	
-	public void nameOfpilot() {
+	public void nameOfpilot() 
+	{
 		System.out.println("I am Rajeev Gandhi");
 		
 	}
@@ -12,9 +13,12 @@ public class AircaftinReadyCondition implements  AircraftRules,AirCraftCompanyNa
 	public static void main(String[] args) {
 		AircaftinReadyCondition ac=new AircaftinReadyCondition();
 		ac.color();
-		ac.nameOfAircraftCompany();
-		ac.nameOfAircraftCompany();
-	//	ac.nameOfpilot();
+//		ac.nameOfAircraftCompany();
+//		ac.nameOfAircraftCompany();
+		
+		//We cant acces below method by the reference parent interface because it doesnot have that method in it
+//		AircraftRules ac=new AircaftinReadyCondition();
+		ac.nameOfpilot();
 		
 	}
 

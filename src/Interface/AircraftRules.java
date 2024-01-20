@@ -8,5 +8,7 @@ public interface AircraftRules
 	void color();
 	
 	void sittingArrangement();
+	
+	
 
 }

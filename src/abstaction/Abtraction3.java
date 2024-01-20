@@ -1,5 +1,10 @@
 package abstaction;
 
-public class Abtraction3 {
+//We cant create multple inheritacnce in Abstraction
+public class Abtraction3 extends Abstraction1, Abstraction2 {
+	
+	
 
 }
+
+
