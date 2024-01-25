@@ -1,6 +1,6 @@
 package abstaction;
 
-public abstract class Abstarction2 {
+public abstract class Abstraction2 {
 
 	abstract void Design();	
 	

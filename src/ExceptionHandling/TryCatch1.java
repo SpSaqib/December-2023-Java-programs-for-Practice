@@ -28,7 +28,26 @@ public class TryCatch1 {
 			
 		}
 		
+		catch(ArithmeticException e)
+		{
+			System.out.println("I am from Arithmetic Exception Exception");
+		}
 		
+		
+		catch(ArrayIndexOutOfBoundsException e)
+		{
+			System.out.println("I am from Array Index OutOf Bounds Exception Exception");
+		}
+		
+		catch(Exception e)
+		{
+			System.out.println("I am from Exception");
+		}
+		
+		catch (Throwable e)
+		{
+			System.out.println("Hello throwable exception");
+		}
 		
 		finally
 		{
