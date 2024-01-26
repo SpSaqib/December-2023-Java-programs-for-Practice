@@ -1,6 +1,6 @@
 package abstaction;
 
-public abstract  class Abstraction1 {
+public abstract class Abstraction1 {
 	
 	 public abstract int add(int a, int b);
 	 

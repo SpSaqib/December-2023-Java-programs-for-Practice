@@ -9,6 +9,4 @@ public interface AircraftRules
 	
 	void sittingArrangement();
 	
-	
-
 }

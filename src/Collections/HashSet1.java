@@ -1,5 +1,6 @@
 package Collections;
 
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
 
@@ -21,6 +22,8 @@ public class HashSet1 {
 //			System.out.println(h1);
 //		}
 		
+		//		
+//		Collections.sort(a);
 		
 		System.out.println(h.isEmpty());
 		System.out.println(h.size());
